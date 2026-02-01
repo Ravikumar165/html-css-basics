@@ -1,0 +1,92 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 25px;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ffffff;
+    margin: 8px auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Form */
+form {
+    background: #ffffff;
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b92929;
+}
+body {
+    margin-left: 30%;                 /* border edge pe dikhane ke liye */
+      margin-right: 30%;  
+      margin-top: 3%;                 /* border edge pe dikhane ke liye */
+      margin-bottom: 3%;  
+    font-family: Arial, sans-serif;
+    background-color: rgb(224, 228, 230);
+    text-align: center;
+
+    /* Left & Right border only */
+    border: 6px solid black;
+    border-color: rgb(102, 177, 241);
+    
+}
+div {
+    background-color: rgb(0, 242, 255);
+    
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px grey;
+    
+}
